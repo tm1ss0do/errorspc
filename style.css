@@ -1,0 +1,122 @@
+body{
+  padding: 0;
+  margin: 0;
+  color: #eee;
+}
+
+.message-container{
+  position: relative;
+  text-align: center;
+}
+.message-container .title{
+  color: #696969;
+}
+.message-container .img-box{
+  width: 900px;
+  height: 400px;
+  margin: 0 auto;
+}
+.message-container .img-box img{
+  width: 100%;
+}
+.message-container .game-panel{
+  position: relative;
+  top: -280px;
+}
+.message-container .btn-wrapper.start{
+  position: relative;
+  bottom: 200px;
+}
+.message-container .btn-wrapper.start input[type="submit"]{
+  padding: 10px 30px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  background: #eee;
+  font-size: 15px;
+}
+input[type="submit"]:hover{
+  cursor: pointer;
+  background: #f5deb3;
+}
+
+
+/*-------------------*/
+/*ゲームパネル*/
+/*-------------------*/
+.panel{
+  width: 450px;
+  text-align: left;
+  position: absolute;
+  top: 180px;
+  left: 500px;
+}
+.panel.game-panel .err-message{
+  font-size: 10px;
+  height:100px;
+}
+.panel.game-panel .err-message h2{
+  font-size: 22px;
+}
+.panel.game-panel .status-box{
+  position: absolute;
+  left: -220px;
+  bottom: 0;
+  color: #fff;
+  background: black;
+  width: 200px;
+  border: 1px solid #eee;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.panel.game-panel .fix-message{
+  padding: 10px;
+  border: 1px solid #eee;
+  margin-top: 15px;
+  height: 120px;
+  font-size: 14px;
+}
+#btn-wrapper{
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+  top: -280px;
+  color: #eee;
+}
+#btn-wrapper .play{
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 20px;
+}
+#btn-wrapper h3{
+  margin: 10px 0 0 0;
+}
+#btn-wrapper .play input[type="submit"]{
+  width: 50%;
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  border-radius: 2px;
+  font-size: 15px;
+}
+/*------------*/
+/*clear*/
+
+.panel.gameclear-panel{
+  position: absolute;
+  top: 300px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #eee;
+}
+#btn-wrapper .clear input[type="submit"]{
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2px;
+  font-size: 15px;
+}
